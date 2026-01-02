@@ -9,13 +9,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-    @Bean(name = "cat")
-    public Cat cat() {
-        return new Cat();
-    }
-
-    @Bean(name = "dog")
-    public Dog dog() {
-        return new Dog();
-    }
 }
